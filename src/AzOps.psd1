@@ -12,7 +12,7 @@
     RootModule        = 'AzOps.psm1'
 
     # Version number of this module.
-    ModuleVersion     = '0.1'
+    ModuleVersion     = '0.0'
 
     # Supported PSEditions
     # CompatiblePSEditions = @()
@@ -21,7 +21,7 @@
     GUID              = '4336cc9b-48f8-4b0e-9629-fd1245e848d9'
 
     # Author of this module
-    Author            = 'Customer Engineering'
+    Author            = 'Customer Architecture and Engineering'
 
     # Company or vendor of this module
     CompanyName       = 'Microsoft'
@@ -52,8 +52,8 @@
 
     # Modules that must be imported into the global environment prior to importing this module
     RequiredModules   = @(
-        @("Az.Accounts", @{ ModuleName = "Az.Accounts"; ModuleVersion = "1.8.0" } )
-        @("Az.Resources", @{ ModuleName = "Az.Resources"; ModuleVersion = "2.0.1" } )
+        @("Az.Accounts", @{ ModuleName = "Az.Accounts"; ModuleVersion = "1.9.1" } )
+        @("Az.Resources", @{ ModuleName = "Az.Resources"; ModuleVersion = "2.3.0" } )
     )
 
     # Assemblies that must be loaded prior to importing this module
@@ -83,13 +83,13 @@
     )
 
     # Cmdlets to export from this module, for best performance, do not use wildcards and do not delete the entry, use an empty array if there are no cmdlets to export.
-    CmdletsToExport   = '*'
+    # CmdletsToExport   = '*'
 
     # Variables to export from this module
-    VariablesToExport = '*'
+    # VariablesToExport = '*'
 
     # Aliases to export from this module, for best performance, do not use wildcards and do not delete the entry, use an empty array if there are no aliases to export.
-    AliasesToExport   = '*'
+    # AliasesToExport   = '*'
 
     # DSC resources to export from this module
     # DscResourcesToExport = @()
